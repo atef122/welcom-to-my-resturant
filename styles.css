@@ -1,0 +1,105 @@
+/* atef part copy  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header {
+    background-color: rgb(83, 16, 16);
+    color: rgb(67, 13, 13);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+ul{
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+#navebar{
+    top: 0%;
+    left: 0%;
+    padding:15px 0 ;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(85, 19, 19) (42, 159, 165);
+}
+#navebar img {
+    width: 7px;
+    margin-left: 0px;
+}
+
+
+#navebar ul{
+    display:flex ;
+    margin-right: 50px;
+}
+#navebar ul li a{
+    padding: 15px 20px;
+    color: aliceblue;
+}
+#navebar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+
+/* zeinab part - branches start */
+
+/* Header Styling */
+
+
+/* Branch Section Styling */
+.branches {
+    display: grid;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.branch {
+    background: #2d2b55;
+    border: 1px solid #ca1818;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.branch:hover {
+    transform: scale(1.05);
+}
+
+.branch h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.branch p {
+    font-size: 1em;
+    color: #fdfdfd;
+    margin-bottom: 8px;
+}
+
+.branch a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    color: #d6cf42;
+    background-color: #4a0f07;
+    border-radius: 5px;
+    text-decoration:none;
+    transition: background-color 5.3s ease;
+}
+
+.branch a:hover {
+    background-color: #b30006;
+}
+/* zeinab part branches end */

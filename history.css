@@ -1,0 +1,51 @@
+
+/* navebare */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+#navebar{
+    display:flex ;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: rgb(107, 29, 29);
+}
+#navebar img {
+    width: 80px;
+    margin-left: 100px;
+}
+
+#navebar ul{
+    display:flex ;
+    margin-right: 100px;
+}
+#navebar ul li a{
+    padding: 15px 20px;
+    color: aliceblue;
+}
+#navebar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+
+/* history */
+h1{
+    color: brown;
+}
+p{
+    color: rgb(255, 255, 255);
+display: flex;
+margin: 10px;
+width: 700px;
+}
+body{
+    background: url("./img/poop.jpg") center center/cover no-repeat;
+}

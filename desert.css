@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+}
+ul{
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+  }
+  .btn-primary {
+    border: 1px solid #fff;
+  }
+  
+  .btn-secondary,
+  .btn-third:hover {
+    background: #383848;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover,
+  .btn-third {
+    background: #e4b95b;
+  }
+  
+  .primary-text {
+    color: #e4b95b;
+  }
+/*header start*/
+#navebar{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(90, 19, 19);
+}
+#navebar img {
+    width: 80px;
+    margin-left: 100px;
+}
+
+
+#navebar ul{
+    display:flex ;
+    margin-right: 100px;
+}
+#navebar ul li a{
+    padding: 15px 20px;
+    color: aliceblue;
+}
+#navebar ul li a:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+/* mavi start */
+body {
+    background-color: rgb(101, 76, 42);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    font-family: "Quicksand", sans-serif;
+    }
+h3 {color: rgb(238, 238, 238);
+    font-size: 25px;
+    margin-left: 10px;
+    text-decoration: underline;
+        padding: 0px 10px ;
+        margin: 0px;
+    background-color: rgb(85, 16, 31);
+  }
+p {font-weight: 10px;
+   margin-left: 10px;
+   margin-top: 5px;
+   font-size: 20px;  
+}
+img {width: 120px;
+     border-radius: 50%;
+     background-color: rgb(50, 5, 29)
+      ;
+ 
+}
+h2 {text-align: center;
+    background-color: rgb(233, 225, 225);
+    border: 4px solid rgb(248, 245, 245);
+ 
+}
+#drssert-item {display: flex;
+               justify-content: center;
+               align-items: right;
+ 
+}
+/* mavi end  */
